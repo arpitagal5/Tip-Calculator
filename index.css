@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(107, 13, 13);
+    box-sizing: border-box;
+    font-family:sans-serif;
+    padding: 0px;
+    margin:0px ;
+}
+
+.container {
+     width:70%;
+     margin:20px auto ;
+     border-radius: 10px;
+     background-color: rgb(107,13,13);
+     box-sizing: border-box;
+     
+    
+ }
+.top {
+     height: 10vh;
+     background-color: black;
+     border-radius: 25px 25px 0px 0px ;
+     text-align: center;
+     color: whitesmoke;
+     font-size: calc(1vw + 25%) ;
+     padding-top: 1.75%;
+ }
+
+.bottom {
+     height:70vh;
+     background-color: whitesmoke;
+     border-radius:  0px 0px 25px 25px;
+     
+ }
+
+form {
+     padding: 5% 15% ; 
+     font-size: calc(1.4vw + 25%);
+ }
+ 
+input {
+     font-size: 80%;
+     margin-top: auto;
+     width:50%;
+     height:5%;
+     border-radius: 2px;
+     border: 0.015rem solid rgb(228, 224, 224);
+     box-shadow: 0.05rem 0.05rem rgb(183, 180, 184);  
+ }
+
+select {
+    font-size: 80%;
+    width:50%;
+    height:5%;
+    box-shadow: 0.05rem 0.05rem rgb(183, 180, 184);
+    border-radius: 2px;
+    border: 0.015rem solid rgb(228, 224, 224);
+ }
+
+button {
+     margin : 8% auto 0px auto ;
+     text-align: center;
+     padding:0.5vw 1vw;
+     background-color: rgb(107,13,13);
+     color: whitesmoke;
+     font-size: calc(2vw + 5px);
+     box-shadow: 0.040rem 0.07rem rgb(165, 81, 81);
+     border: transparent;  
+ }
+
+button:hover {
+     background-color: rgb(177, 99, 99);
+     color:black;
+     box-shadow: 0.040rem 0.07rem rgb(107,13,13);
+     transform: 1s;
+     border: 1px solid rgb(107,13,13);   
+ }
+
+h4 {
+     border:1px solid black;
+     padding: 5px 10px;
+ }
